@@ -1,0 +1,27 @@
+:root {
+  --white: #eee;
+  --blue: #9aabd8;
+  --dark-blue: #1b244a;
+  --black: #080001;
+  --red: #f94f6d;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: cursed-timer;
+  src: url(./assets/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
+.scoreboard {
+  padding: 4.25em 5.125em;
+  background-color: var(--dark-blue);
+  display: flex;
+  gap: 6.25em;
+  justify-content: center;
+  border: 5px solid var(--white);
+  border-radius: 20px;
+}

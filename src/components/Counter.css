@@ -1,0 +1,33 @@
+.score-display {
+  text-align: center;
+}
+
+.team-name {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: var(--white);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.score {
+  margin-bottom: 0.25em;
+  padding: 20px;
+  font-size: 4em;
+  font-family: cursed-timer;
+  background-color: var(--black);
+  color: var(--red);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-button {
+  font-size: 1.125rem;
+  font-family: cursed-timer;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
